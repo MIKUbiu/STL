@@ -10,7 +10,7 @@ int main() {
 		}
 		auto p = L.begin();
 		while (L.size() > 1) {
-			for (int i = 1; i < m; i++) {//执行m次  1...m
+			for (int i = 1; i < m; i++) {//执行m-1次  1...m-1 p的位置开始是1,加上m-1次才是m
 				p++;
 				if (p == L.end())//当指针指向最后一个节点的下一个位置时，转向表头
 				p = L.begin();
