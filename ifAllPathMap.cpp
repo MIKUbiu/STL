@@ -18,5 +18,6 @@ if (f == e and odd == 0 or f != e and odd == 2 and (G[f] & 1) and (G[e] & 1))
 cout << "YES" << endl;
 else
 cout << "NO" << endl;
+ //test1
 return 0;
 }
